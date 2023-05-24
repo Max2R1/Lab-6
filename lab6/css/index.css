@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 1%;
+}
+
+ul {
+  list-style: none;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 1%;
+}
+
+li {
+  margin-bottom: 1%;
+}
+
+li:first-child a:link {
+  color: black;
+}
+
+li:first-child a:visited {
+  color: gray;
+}
+
+li:nth-child(2) a:link {
+  color: aqua;
+}
+
+li:nth-child(2) a:visited {
+  color: pink;
+}
+
+li:nth-child(3) a:link {
+  color: purple;
+}
+
+li:nth-child(3) a:visited {
+  color: brown;
+}
+
+li:last-child a:link {
+  color: red;
+}
+
+li:last-child a:visited {
+  color: green;
+}

@@ -1,0 +1,102 @@
+#header-id {
+  text-align: center;
+  font-size: 22px;
+}
+
+h2 {
+  margin-bottom: 1%;
+}
+
+header a {
+  font-style: italic;
+}
+
+section h3 {
+  text-align: center;
+}
+
+.button {
+  text-decoration: none;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  border: 3px solid black;
+  border-radius: 3px;
+  display: block;
+  width: 200px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 1%;
+}
+
+.button:hover {
+  background-color: red;
+  color: black;
+}
+
+.button:active {
+  background-color: green;
+  color: black;
+}
+
+section:last-of-type div article {
+  font-size: 1.2em;
+}
+
+section:last-of-type div article h2 {
+  font-size: 1.8em;
+}
+
+.block1 {
+  background-color: lightgoldenrodyellow;
+  color: darkblue;
+}
+
+.block2 {
+  background-color: lightblue;
+  color: black;
+}
+
+.block3 {
+  background-color: gray;
+  color: white;
+}
+
+.block4 {
+  background-color: lightgreen;
+  color: black;
+}
+
+.block5 {
+  background-color: lightcyan;
+  color: black;
+}
+
+section:last-of-type a {
+  font-weight: bold;
+}
+
+footer a {
+  text-transform: uppercase;
+}
+
+.sec-boder-block,
+.sec-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sec-block {
+  margin-bottom: 1%;
+  min-width: 350px;
+}
+
+.sec-boder-block {
+  border: 3px solid;
+  border-radius: 5px;
+  padding: 5px;
+}
